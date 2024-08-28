@@ -16,7 +16,6 @@ Install the Dependencies: Make sure you have the required Python libraries by ru
 
 pip install -r requirements.txt
 
-
 Run the Bot: In your terminal, navigate to the project directory and run:
 
 python movie_suggestion_bot.py
@@ -30,5 +29,5 @@ Requests for making HTTP requests
 Pandas for handling data
 
 Lessons Learned
-This project was a fantastic learning experience! It helped me sharpen my skills in web scraping, data processing, and error handling—all while working on something fun and practical.
+This project was a fantastic learning experience! It helped me sharpen my skills in web scraping, data processing, and error handling.
 
