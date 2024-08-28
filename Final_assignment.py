@@ -72,7 +72,7 @@ if movies:
     save_to_csv(movies)
     df_movies = load_movies()
     if df_movies is not None:
-        genre = input("Enter a genre to get movie suggestions: ")
+        genre = input("Enter a Movie title to get movie suggestions: ")
         try:
             min_rating = float(input("Enter the minimum rating (e.g., 7.5): "))
             suggest_movies_by_genre(df_movies, genre, min_rating)
